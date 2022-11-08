@@ -246,7 +246,9 @@
 }
 
 .stats .column-img-container,
-.news .column-img-container {
+.news .column-img-container,
+.companies .column-img-container,
+.testimonials .column-img-container {
     padding: 0 var(--spacing-unit-xs);
 }
 
@@ -361,7 +363,7 @@
 }
 
 .columns-reversed .column-left {
-    padding-top: var(--spacing-unit-l);
+    padding-top: var(--spacing-unit-2xl);
 }
 
 @media only screen and (min-width: 900px) {
