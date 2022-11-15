@@ -35,6 +35,7 @@
     --font-size-large-mobile: 45px;
     --font-size-large-tablet-s: 65px;
     --font-size-large-tablet-l: 75px;
+    --font-size-large-tablet-xl: 85px;
     --font-size-large-desktop: 100px;
     --site-bg-color: var(--white);
     --nav-bg-color: rgba(228, 228, 228, 0.3);
@@ -342,13 +343,13 @@ li {
 
 @media (min-width: 720px) and (max-width: 899px) {
     .heading h1 {
-        font-size: var(--font-size-large-tablet-l);
+        font-size: var(--font-size-large-tablet-s);
     }
 }
 
 @media only screen and (min-width: 900px) {
     .heading h1 {
-        font-size: var(--font-size-large-desktop);
+        font-size: var(--font-size-large-tablet-xl);
     }
 }
 
