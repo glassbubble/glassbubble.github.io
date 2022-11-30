@@ -93,12 +93,17 @@
 .role p,
 .duration p,
 .case-study-section-text,
+.case-study-title-description,
 .img-caption,
 .column-img-caption,
 .scroll-caption,
 .bullet-list-container p,
 .bullet-list-container li {
     color: var(--description-text-color);
+}
+
+.case-study-section-text {
+    margin: var(--spacing-unit-m) 0;
 }
 
 .case-study-section {
@@ -171,6 +176,7 @@
 .lihti .case-study-subheading,
 .lihti .inline-link,
 .lihti .bold-text,
+.lihti .pain-point h3,
 .scentair .case-study-subheading,
 .scentair .inline-link,
 .scentair .bold-text {
@@ -178,7 +184,8 @@
 }
 
 .zen .case-study-subheading,
-.zen .bold-text {
+.zen .bold-text,
+.zen .pain-point h3 {
     color: var(--bright-blue);
 }
 
@@ -188,7 +195,8 @@
 
 .foreign-affairs .case-study-subheading,
 .foreign-affairs .inline-link,
-.foreign-affairs .bold-text {
+.foreign-affairs .bold-text,
+.foreign-affairs .pain-point h3 {
     color: var(--red);
 }
 
@@ -283,7 +291,7 @@
 .company-filters,
 .site-map,
 .zen-competitors .onboarding {
-    padding-top: var(--spacing-unit-2xl);
+    padding-top: var(--spacing-unit-xl);
 }
 
 @media only screen and (min-width: 900px) {
@@ -339,6 +347,35 @@
         align-items: flex-start;
         margin-bottom: var(--spacing-unit-m);
     }
+
+    .design-system .columns-7-3 .column-left {
+        margin: 0 0 0 var(--spacing-unit-2xl);
+    }
+
+    .additional-text {
+        margin-bottom: var(--spacing-unit-xm);
+    }
+}
+
+.design-system .column-img-container {
+    margin: var(--spacing-unit-m) 0;
+}
+
+@media only screen and (max-width: 900px) {
+    .design-system .column-right .column-img-container {
+        width: 60%;
+    }
+}
+
+.demo-flow .img-full-width,
+.design-system .column-container {
+    margin-top: 0;
+}
+
+.stage-summary,
+.design-system,
+.case-study-secondary-section {
+    margin: var(--spacing-unit-3xl) 0 var(--spacing-unit-s);
 }
 
 .stacked-imgs .stats,
