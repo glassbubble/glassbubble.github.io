@@ -62,6 +62,7 @@
     --sonneman-overlay-color: rgba(255, 229, 135, 0.55);
     --scentair-overlay-color: rgba(96, 203, 210, 0.6);
     --boppy-overlay-color: rgba(198, 154, 255, 0.55);
+    --classhook-overlay-color: rgba(240, 90, 40, 0.45);
     --description-text-color: var(--gray);
     --copyright-size: var(--font-size-small);
 }
@@ -699,6 +700,15 @@ footer h2 {
 .boppy .secondary-project-img-container::after,
 .boppy .case-study-intro-hero::after {
     background-color: var(--boppy-overlay-color);
+}
+
+.classhook .secondary-project-img-container::after,
+.classhook .case-study-intro-hero::after {
+    background-color: var(--classhook-overlay-color);
+}
+
+.classhook.secondary-project-block {
+    justify-content: start;
 }
 
 .secondary-project-row-bottom h2 {
