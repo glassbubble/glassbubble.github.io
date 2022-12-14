@@ -81,17 +81,20 @@
 }
 
 .role,
-.duration {
+.duration,
+.tools {
     margin-bottom: var(--spacing-unit-m);
 }
 
 .role h3,
-.duration h3 {
+.duration h3,
+.tools h3 {
     margin-bottom: var(--spacing-unit-s);
 }
 
 .role p,
 .duration p,
+.tools p,
 .case-study-section-text,
 .case-study-title-description,
 .img-caption,
